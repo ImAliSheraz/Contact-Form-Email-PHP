@@ -47,7 +47,7 @@ $mail->Password = 'Password';         // Add Your Email Address Password
 $mail->SMTPSecure = 'ssl';                  
 $mail->FromName = 'Website Name';         // Website Name
 $mail->AddAddress( $recipient_email, $recipient_email); 
-$mail->AddCC('thealisheraz@outlook.com');  // Website Email That receive Query 
+$mail->AddCC('CC Email');  // Website Email That receive Query 
 $mail->WordWrap = 2550;
 $mail->IsHTML(true);       
 $mail->Subject = $subject;
